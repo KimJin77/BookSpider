@@ -79,6 +79,6 @@ def get_books(book_tags):
     return results
 
 if __name__ == '__main__':
-    tag = ['小说', '音乐', '历史']
+    tag = ['小说', '音乐', '历史', 'IT']
     write_to_excel_file(tag, get_books(tag))
 
